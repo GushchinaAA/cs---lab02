@@ -13,5 +13,12 @@ int main()
     << "a * b = " << a * b << '\n'
     << "A / B = " << a / b;
 
+    int max = a;
+    if (a>b)
+    max = a;
+    else
+    max = b;
+
+
     return 0;
 }
