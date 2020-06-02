@@ -9,6 +9,8 @@ int main()
     cin >> a >> b;
     cout << "A + B = " << a + b << '\n'
     << "A - B = " << a - b << '\n'
-    << "A * B = " << a * b;
+    << "A * B = " << a * b << '\n'
+    << "a * b = " << a * b;
+
     return 0;
 }
